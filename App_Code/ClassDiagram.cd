@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLcode">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OAASCkBDEAgJgkRYZQEgAEkDgLJEAwBGEBIDAwiEAJA=</HashCode>
+      <FileName>App_Code\BLcode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLCode">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAggEFCAAAAAAVAEoAAAQIAEAgEADAgAAASAIAAEAA=</HashCode>
+      <FileName>App_Code\DLcode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

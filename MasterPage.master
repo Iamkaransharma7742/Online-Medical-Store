@@ -1,0 +1,86 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register src="LoginControl.ascx" tagname="LoginControl" tagprefix="uc1" %>
+<%@ Register src="LinksControl.ascx" tagname="LinksControl" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 131%;
+            height: 61px;
+            margin-right: 0px;
+        }
+        .style2
+        {
+            color: #FF0000;
+        }
+        .style11
+        {
+            width: 130px;
+        }
+        .style12
+        {
+            color: #FF0000;
+            width: 130px;
+            height: 40px;
+        }
+        .style13
+        {
+            color: #000066;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="65px" Width="1023px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center">
+                    <asp:Label ID="Label1" runat="server" Font-Italic="True" Font-Size="X-Large" 
+                        Font-Underline="True" ForeColor="#00CC00" Height="24px" 
+                        style="margin-left: 0px; text-align: center;" 
+                        Text="Google A Medicine Search" Width="271px"></asp:Label>
+                    </td>
+            </tr>
+            <tr>
+                <td style="text-align: center">
+                    <span class="style13">Welcome:&nbsp;&nbsp; </span>
+                    <asp:Label ID="Label2" runat="server"></asp:Label>
+                    </td>
+            </tr>
+        </table>
+    </div>
+    <table class="style1">
+        <tr>
+            <td class="style11">
+                <uc2:LinksControl ID="LinksControl3" runat="server" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+                <br />
+            </td>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="style12" style="text-align: center">
+                &nbsp;</td>
+           
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

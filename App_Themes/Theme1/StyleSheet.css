@@ -1,0 +1,290 @@
+﻿
+.HyperLinks
+{
+	background-color:White;
+	
+}
+.TextBox
+{
+	height:25px;
+	width:140px;
+	
+}
+.linkbutton
+{
+	color:Lime;
+	
+}
+td:hover
+{
+	background-color:Purple;
+	border-color:Silver;
+}
+
+
+.RitesCol {
+	BACKGROUND-COLOR: #b50000; FONT-FAMILY: Verdana; COLOR: #ffffff; FONT-SIZE: 7pt; speak: spell-out
+}
+A:link {
+	FONT-FAMILY: Verdana; COLOR: #0000ff; FONT-SIZE: 8pt;
+}
+A:visited {
+	FONT-FAMILY: Verdana; COLOR: #0000ff; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+A:active {
+	FONT-FAMILY: Verdana; COLOR: #0000ff; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-FAMILY: Verdana; COLOR: #cc3300; FONT-SIZE: 8pt; TEXT-DECORATION: underline
+}
+.PageHeader {
+	FONT-FAMILY: Verdana; COLOR: #b50000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.SubTitle {
+	FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10pt;
+	text-align:left;
+	width: 100%;
+}
+
+.TableTitle {
+	FONT-FAMILY: Verdana; COLOR: #ffffff; FONT-SIZE: 10pt;
+	background-color:Black;
+	text-align: left;
+}
+.smalltitle {
+	FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 8pt;
+}
+
+.RegStepsNavigation {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BACKGROUND-COLOR: #f0f8ff; FONT-FAMILY: Verdana; HEIGHT: 30px; COLOR: #000000; FONT-SIZE: 10px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+
+.MyTable 
+{
+	BORDER-BOTTOM: black 1px solid; 
+	BORDER-LEFT: black 1px solid;
+	BORDER-TOP: black 1px solid; 
+	BORDER-RIGHT: black 1px solid
+}
+
+.MyLightRow
+{
+	BORDER-BOTTOM: gray 1px solid;
+}
+.HeaderBottomLine {
+	HEIGHT: 20px; VERTICAL-ALIGN: bottom; BORDER-TOP: black 1px solid
+}
+.BodyText {
+	FONT-FAMILY: Verdana; FONT-SIZE: 10pt;
+	width: 100%;
+}
+.TreeMenu {
+	FONT-FAMILY: "Verdana" "Arial"; FONT-SIZE: 10px
+}
+.footercolor {
+	BACKGROUND-COLOR: #b50000
+}
+.loginboxes {
+	TEXT-ALIGN: right;
+	vertical-align:middle;
+}
+.tableHeadings {
+	BACKGROUND-COLOR: white; FONT-FAMILY: "Verdana" "Arial"; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.errormsg {
+	FONT-FAMILY: "Verdana" "Arial"; COLOR: red; FONT-SIZE: 8pt
+}
+.menubarOption {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: white; FONT-FAMILY: Verdana; HEIGHT: 21px; FONT-SIZE: 8pt; VERTICAL-ALIGN: bottom; TEXT-DECORATION: none
+}
+.menubarOption:link {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: white; FONT-FAMILY: Verdana; HEIGHT: 21px; FONT-SIZE: 8pt; VERTICAL-ALIGN: bottom; TEXT-DECORATION: none
+}
+.menubarOption:visited {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: white; FONT-FAMILY: Verdana; HEIGHT: 21px; FONT-SIZE: 8pt; VERTICAL-ALIGN: bottom; TEXT-DECORATION: none
+}
+.menubarOption:hover {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: gray; FONT-FAMILY: Verdana; HEIGHT: 21px; COLOR: white; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+.CellHeadings {
+	BACKGROUND-COLOR: black; FONT-FAMILY: "Verdana" "Arial"; COLOR: white; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.ProfileData {
+	FONT-FAMILY: Verdana; FONT-SIZE: 8pt
+}
+.CompanyName {
+	font-family:Palatino Linotype, Verdana, Arial,  "Bodoni MT Black";
+	font-size: 40px;
+	color: #B50000;
+}
+.mymenu
+{
+    font-family:Verdana;
+    font-size:12px;
+    text-align:left;
+    color:Aqua;
+    text-decoration:none;
+}
+
+.mymenu:active
+{
+    font-family:Verdana;
+    font-size:12px;
+    text-align:left;
+    color:black;
+    text-decoration:none;
+}
+
+.mymenu:link
+{
+    font-family:Verdana;
+    font-size:12px;
+    text-align:left;
+    color:black;
+    text-decoration:none;
+}
+
+.mymenu:visited
+{
+    font-family:Verdana;
+    font-size:12px;
+    text-align:left;
+    color:black;
+    text-decoration:none;
+}
+
+ 
+.mymenu:hover
+{
+    font-family:Verdana;
+    font-size:12px;
+    text-align:left;
+    color:white;
+    font-weight:bold;
+    background-color:black;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.BorderTable
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color:Black;
+}
+
+.DateLayer
+{
+	position:absolute;
+	
+	z-index:100;	
+}
+.MyButton
+{
+	border: Solid 1px Brows;
+}
+
+.MyRedButton
+{
+	BACKGROUND-COLOR: #b50000;
+	FONT-FAMILY: Verdana; 
+	COLOR: #ffffff; 
+	FONT-SIZE: 7pt; 
+	speak: spell-out;
+}
+
+.MyYellowButton
+{
+	BACKGROUND-COLOR:Yellow;
+	FONT-FAMILY: Verdana; 
+	COLOR: #ffffff; 
+	FONT-SIZE: 7pt; 
+	speak: spell-out;
+}
+
+.MyBlueButton
+{
+	BACKGROUND-COLOR:Blue;
+	FONT-FAMILY: Verdana; 
+	COLOR: #ffffff; 
+	FONT-SIZE: 7pt; 
+	speak: spell-out;
+}
+
+.TabLink
+{
+	FONT-FAMILY: Verdana;
+	font-weight:bold;
+	COLOR: #ffffff;
+	FONT-SIZE: 10pt;
+}
+
+.TabLink:Link
+{
+	FONT-FAMILY: Verdana;
+	font-weight:bold;
+	COLOR: #ffffff;
+	FONT-SIZE: 10pt;
+}
+
+.TabLink:visited
+{
+	FONT-FAMILY: Verdana;
+	font-weight:bold;
+	COLOR: #ffffff;
+	FONT-SIZE: 10pt;
+}
+
+.TabContentTable
+{
+	width: 98%;
+	border: 1px solid silver;
+}
+
+#SearchWindow
+{
+	background-color:White;
+	border:solid 2px Maroon;
+	width:60%;
+}
+
+#PreEditWindowStyle
+{
+	background-color:White;
+	border:solid 2px Gray;
+	width:50%;
+}
+
+#ReceiptPrintWindowStyle
+{
+	background-color:White;
+	border:solid 2px Gray;
+	width:700px;
+}
+
+#MainLayoutTable
+{
+	border-bottom: gray 1px solid; 
+	border-left: gray 1px solid; 
+	border-top: gray 1px solid; 
+	border-right: gray 1px solid;
+    width:98%;
+    background-color:#ffffff;
+}
+
+#InnerMainLayoutTable
+{
+	border-bottom: gray 1px solid; 
+	border-left: gray 1px solid; 
+	border-top: gray 1px solid; 
+	border-right: gray 1px solid;
+    width:98%;
+    background-color:#ffffff;
+}
+
+#WaitWindowStyle
+{
+	background-color:Transparent;
+	border:Solid 1px Gray;
+	background-color:Yellow;
+}
